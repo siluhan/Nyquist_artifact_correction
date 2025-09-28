@@ -21,7 +21,7 @@ for z = 1 : Nz_SB
 end
 
 RMS_gre = RootMeanSquare(Image_gre,Nz_SB,Ncoil_SB,'Image');
-figure;Display3D(imrotate(squeeze(RMS_gre),0),13,1);title('GRE')
+figure;Display3D(imrotate(squeeze(RMS_gre),0),2,1);title('GRE')
 
 
 %% Read EPI data: 2-shot EPI
